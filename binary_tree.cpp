@@ -1,4 +1,5 @@
 #include <iostream>
+#include <stdlib.h>
 
 using namespace std;
 
@@ -107,7 +108,18 @@ void printTree(struct Node* root){
     }
 }
 
- 
+bool IsItAvlTree(struct Node* root){
+    if(root == NULL) return true;
+    
+    int left = height(root->left);
+    int right = height(root->right);
+    
+    if(left - right !=0 && left - right != -1 && left-right !=1){
+        return false;
+    }else{
+        return IsItAvlTree(root->left) && IsItAvlTree(root->right);
+    } 
+}
 
 
 int main(){
@@ -117,7 +129,8 @@ int main(){
     insert(root,40);
     insert(root,30);
     insert(root,70);
-    
+    insert(root,80);
     remove(root,50);
-    printTree(root);
+    insert(root,90);
+    cout<<IsItAvlTree(root)<<endl;
 }
