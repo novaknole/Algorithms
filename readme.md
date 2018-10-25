@@ -1,11 +1,12 @@
 # Different Kinds of algorithms including their explanations and time complexities.
 
 #Sorts
-[Insertion Sort](https://github.com/novaknole/Algorithms/blob/master/Trees/binary_tree.cpp)
 
-[Bubble Sort](https://github.com/novaknole/Algorithms/blob/master/Trees/binary_tree.cpp)
+[Insertion Sort O(n*n)](https://github.com/novaknole/Algorithms/blob/master/Sorts/insertion_sort.cpp)
 
-[Merge Sort](https://github.com/novaknole/Algorithms/blob/master/Trees/binary_tree.cpp)
+[Bubble Sort  O(n*n)](https://github.com/novaknole/Algorithms/blob/master/Sorts/Bubble_Sort.cpp)
+
+[Merge Sort O(nLogn).](https://github.com/novaknole/Algorithms/blob/master/Sorts/Merge_Sort.cpp)
 
 ## Trees
 [AVL Tree Code O(logn)=(Search,Insert,Delete)](https://github.com/novaknole/Algorithms/blob/master/Trees/avl_tree.cpp)
