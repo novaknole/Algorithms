@@ -1,6 +1,6 @@
 # Different Kinds of algorithms including their explanations and time complexities.
 
-#Sorts
+# Sorts
 
 [Insertion Sort O(n*n)](https://github.com/novaknole/Algorithms/blob/master/Sorts/insertion_sort.cpp)
 
