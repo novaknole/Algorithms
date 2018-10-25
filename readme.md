@@ -15,3 +15,22 @@
 
 
 
+## Graphs
+[Graph Image 1](https://github.com/novaknole/Algorithms/blob/master/Graphs/Images/Graph_1.jpg)
+
+[Graph Image 2](https://github.com/novaknole/Algorithms/blob/master/Graphs/Images/Graph_2.jpg)
+
+[Graph Image 3](https://github.com/novaknole/Algorithms/blob/master/Graphs/Images/Graph_3.jpg)
+
+[Adjacency_List](https://github.com/novaknole/Algorithms/blob/master/Graphs/Adjacenct_List.cpp)
+
+[Breadth First Search O(V+E)](https://github.com/novaknole/Algorithms/blob/master/Graphs/Bread_First_Search.cpp)
+
+[Depth First Search O(V+E)](https://github.com/novaknole/Algorithms/blob/master/Graphs/Depth_First_Search.cpp)
+
+[Graph BFS vs DFS](https://github.com/novaknole/Algorithms/blob/master/Graphs/Images/Bfs_Dfs.jpg)
+
+[Pick's Theorem(Polygon Area)](https://github.com/novaknole/Algorithms/blob/master/Graphs/Picks_Thereom.cpp)
+
+[Shoolace's Theorem(Polygon Area)](https://github.com/novaknole/Algorithms/blob/master/Graphs/Shoolace_Area.cpp)
+
