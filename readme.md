@@ -41,15 +41,16 @@
 
 [Shoolace's Theorem(Polygon Area)](https://github.com/novaknole/Algorithms/blob/master/Graphs/Shoolace_Area.cpp)
 
+--------------
+
 [Bellman-Ford Theorem O(VE)](https://github.com/novaknole/Algorithms/blob/master/Graphs/Bellman_Ford.cpp)
 
---------------
 Bellman-Ford Algorith finds the shortert paths from the specified vertex to all other vertexes. Dijksra’s algorithm is a Greedy algorithm and time complexity is O(VLogV) (with the use of Fibonacci heap). Dijkstra doesn’t work for Graphs with negative weight edges, Bellman-Ford works for such graphs. Bellman-Ford is also simpler than Dijkstra and suites well for distributed systems. But time complexity of Bellman-Ford is O(VE), which is more than Dijkstra.(https://www.youtube.com/watch?v=iTW2yFYd1Nc&t=563s&fbclid=IwAR1-MhQbpeFOH32QA5kp5sltfSrq1FMFrEPAEKXoiH5cGmY827oXCrTHY8c)
 
+---------------
 
 [Djikstra O(V^2) or O(VLogV)](https://github.com/novaknole/Algorithms/blob/master/Graphs/Djikstra.cpp)
 
----------------
 Djikstra Algorithm is the same idea as Bellman-Ford but doesn't work with negative weights. If we use
 the implementation like the above link, Time complexity is O(V^2) but if we use binary heap and
 adjacency list, then it could be reduced to O(VLogV);
