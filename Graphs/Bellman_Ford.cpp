@@ -55,10 +55,8 @@ void BellmanFord(struct Graph* graph, int src)
     // Step 2: Relax all edges |V| - 1 times. A simple shortest  
     // path from src to any other vertex can have at-most |V| - 1  
     // edges 
-    for (int i = 1; i <= V-1; i++) 
-    { 
-        for (int j = 0; j < E; j++) 
-        { 
+    for (int i = 1; i <= V-1; i++) { 
+        for (int j = 0; j < E; j++) { 
             int u = graph->edge[j].src; 
             int v = graph->edge[j].dest; 
             int weight = graph->edge[j].weight; 
