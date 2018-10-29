@@ -58,4 +58,4 @@ adjacency list, then it could be reduced to O(VLogV);
 
 ## Interesting Problems
 
-[Uberwatch Problem I](https://github.com/novaknole/Algorithms/blob/master/20172018-acmicpc-german-collegiate-programming-contest-gcpc-2017-en.pdf)
+[Uberwatch Problem I Solution(t) = max(oponents(t)+solution(t-m), solution(t-1))](https://github.com/novaknole/Algorithms/blob/master/20172018-acmicpc-german-collegiate-programming-contest-gcpc-2017-en.pdf)
