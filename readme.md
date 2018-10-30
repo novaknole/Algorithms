@@ -87,6 +87,8 @@ A matching in a Bipartite Graph is a set of the edges chosen in such a way that 
 Why do we care?
 There are many real world problems that can be formed as Bipartite Matching. For example, consider the following problem:
 There are M job applicants and N jobs. Each applicant has a subset of jobs that he/she is interested in. Each job opening can only accept one applicant and a job applicant can be appointed for only one job. Find an assignment of jobs to applicants in such that as many applicants as possible get jobs.
+The code above does find how many people can be assigned to jobs, if each people could be interested in many jobs,but
+in final only one person go to one job. We need to find the maximum matching which is the same as maximum flow which is the same as maximum number of people that we can assign to jobs.
 
 [Link 1](https://study.com/academy/lesson/bipartite-graph-definition-applications-examples.html)
 [Link 2](https://www.geeksforgeeks.org/maximum-bipartite-matching/)
