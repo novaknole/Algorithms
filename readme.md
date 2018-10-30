@@ -70,6 +70,7 @@ adjacency list, then it could be reduced to O(VLogV);
 Dijkstra’s Algorithm for Adjacency List Representation for more details.
 - Dijkstra’s algorithm doesn’t work for graphs with negative weight edges. For graphs with negative weight edges, Bellman–Ford algorithm can be used, we will soon be discussing it as a separate post.
 
+---------------
 
 [Ford-Fulkerson O(max_flow * E)](https://github.com/novaknole/Algorithms/blob/master/Graphs/Ford_Fulkerson.cpp)
 
@@ -78,6 +79,18 @@ from source city to destination city we can send as many trucks as the capacity 
 We need to find the maximum possible trucks that can go from source city to destination city(from source to sink).
 [Youtube Link](https://www.youtube.com/watch?v=GoVjOT30xwo&t=871s) [Words that we need to know while understanding this algorithm](https://www.geeksforgeeks.org/ford-fulkerson-algorithm-for-maximum-flow-problem/)
 
+
+---------------
+
+[Bipartite Graph](https://github.com/novaknole/Algorithms/blob/master/Graphs/Bipartite_Graph.cpp)
+A matching in a Bipartite Graph is a set of the edges chosen in such a way that no two edges share an endpoint. A maximum matching is a matching of maximum size (maximum number of edges). In a maximum matching, if any edge is added to it, it is no longer a matching. There can be more than one maximum matchings for a given Bipartite Graph.
+Why do we care?
+There are many real world problems that can be formed as Bipartite Matching. For example, consider the following problem:
+There are M job applicants and N jobs. Each applicant has a subset of jobs that he/she is interested in. Each job opening can only accept one applicant and a job applicant can be appointed for only one job. Find an assignment of jobs to applicants in such that as many applicants as possible get jobs.
+
+[Link 1](https://study.com/academy/lesson/bipartite-graph-definition-applications-examples.html)
+[Link 2](https://www.geeksforgeeks.org/maximum-bipartite-matching/)
+[Link 3](https://www.youtube.com/watch?v=8YUIdXOKNpM)
 
 ## Interesting Problems
 
