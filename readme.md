@@ -33,7 +33,7 @@
 
 [Breadth First Search O(V+E)](https://github.com/novaknole/Algorithms/blob/master/Graphs/Bread_First_Search.cpp)
 
-Note that the above code traverses only the vertices reachable from a given source vertex. All the vertices may not be reachable from a given vertex (example Disconnected graph). To print all the vertices, we can modify the BFS function to do traversal starting from all nodes one by one (Like the DFS modified version) .[Modified Version](https://www.geeksforgeeks.org/depth-first-search-or-dfs-for-a-graph/)
+Note that the above code traverses only the vertices reachable from a given source vertex. All the vertices may not be reachable from a given vertex (example Disconnected graph). To print all the vertices, we can modify the BFS function to do traversal starting from all nodes one by one (Like the DFS modified version) [Modified Version](https://www.geeksforgeeks.org/depth-first-search-or-dfs-for-a-graph/)
 
 
 [Depth First Search O(V+E)](https://github.com/novaknole/Algorithms/blob/master/Graphs/Depth_First_Search.cpp)
@@ -48,7 +48,13 @@ Note that the above code traverses only the vertices reachable from a given sour
 
 [Bellman-Ford Theorem O(VE)](https://github.com/novaknole/Algorithms/blob/master/Graphs/Bellman_Ford.cpp)
 
-Bellman-Ford Algorith finds the shortert paths from the specified vertex to all other vertexes. Dijksra’s algorithm is a Greedy algorithm and time complexity is O(VLogV) (with the use of Fibonacci heap). Dijkstra doesn’t work for Graphs with negative weight edges, Bellman-Ford works for such graphs. Bellman-Ford is also simpler than Dijkstra and suites well for distributed systems. But time complexity of Bellman-Ford is O(VE), which is more than Dijkstra.(https://www.youtube.com/watch?v=iTW2yFYd1Nc&t=563s&fbclid=IwAR1-MhQbpeFOH32QA5kp5sltfSrq1FMFrEPAEKXoiH5cGmY827oXCrTHY8c)
+Bellman-Ford Algorith finds the shortert paths from the specified vertex to all other vertexes. Dijksra’s algorithm is a Greedy algorithm and time complexity is O(VLogV) (with the use of Fibonacci heap). Dijkstra doesn’t work for Graphs with negative weight edges, Bellman-Ford works for such graphs. Bellman-Ford is also simpler than Dijkstra and suites well for distributed systems. But time complexity of Bellman-Ford is O(VE), which is more than Dijkstra.
+The standard Bellman-Ford algorithm reports shortest path only if there is no negative weight cycles,But we can modify it to make it work. 
+- If we have a directed graph and we have negative edges, but not negative cycles, this algorithm will work
+flawlessly. If we have negative cycles,it can idenfity cycles but can't work flawlessly.
+- If we have an undirected graph and positive edges, this algorithm will work flawlessly. If we have negative edges, it won't work because any edge in undirected graph is also a loop and if it has a negative edge, we have a negative cycle.
+
+(https://www.youtube.com/watch?v=iTW2yFYd1Nc&t=563s&fbclid=IwAR1-MhQbpeFOH32QA5kp5sltfSrq1FMFrEPAEKXoiH5cGmY827oXCrTHY8c)
 
 ---------------
 
