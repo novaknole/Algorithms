@@ -63,7 +63,12 @@ flawlessly. If we have negative cycles,it can idenfity cycles but can't work fla
 Djikstra Algorithm is the same idea as Bellman-Ford but doesn't work with negative weights. If we use
 the implementation like the above link, Time complexity is O(V^2) but if we use binary heap and
 adjacency list, then it could be reduced to O(VLogV);
-
+- The code calculates shortest distance, but doesn’t calculate the path information. We can create a parent array, update the parent array when distance is updated (like prim’s implementation) and use it show the shortest path from source to different vertices.
+- The code is for undirected graph, same dijkstra function can be used for directed graphs also.
+- The code finds shortest distances from source to all vertices. If we are interested only in shortest distance from the source to a single target, we can break the for the loop when the picked minimum distance vertex is equal to target (Step 3.a of the algorithm).
+- Time Complexity of the implementation is O(V^2). If the input graph is represented using adjacency list, it can be reduced to O(E log V) with the help of binary heap. Please see
+Dijkstra’s Algorithm for Adjacency List Representation for more details.
+- Dijkstra’s algorithm doesn’t work for graphs with negative weight edges. For graphs with negative weight edges, Bellman–Ford algorithm can be used, we will soon be discussing it as a separate post.
 
 ## Interesting Problems
 
