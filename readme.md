@@ -70,6 +70,15 @@ adjacency list, then it could be reduced to O(VLogV);
 Dijkstra’s Algorithm for Adjacency List Representation for more details.
 - Dijkstra’s algorithm doesn’t work for graphs with negative weight edges. For graphs with negative weight edges, Bellman–Ford algorithm can be used, we will soon be discussing it as a separate post.
 
+
+[Ford-Fulkerson O(max_flow * E)](https://github.com/novaknole/Algorithms/blob/master/Graphs/Ford_Fulkerson.cpp)
+
+Imagine we have cities. cities are connected to each other by roads. Each road has some capacity which means that
+from source city to destination city we can send as many trucks as the capacity for this road. We're given two cities.
+We need to find the maximum possible trucks that can go from source city to destination city(from source to sink).
+[Youtube Link](https://www.youtube.com/watch?v=GoVjOT30xwo&t=871s) [Words that we need to know while understanding this algorithm](https://www.geeksforgeeks.org/ford-fulkerson-algorithm-for-maximum-flow-problem/)
+
+
 ## Interesting Problems
 
 [Uberwatch Problem I Solution(t) = max(oponents(t)+solution(t-m), solution(t-1))](https://github.com/novaknole/Algorithms/blob/master/20172018-acmicpc-german-collegiate-programming-contest-gcpc-2017-en.pdf)
