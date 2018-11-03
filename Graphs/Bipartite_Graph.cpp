@@ -36,7 +36,7 @@ bool bpm(bool bpGraph[M][N], int u,
             if (matchR[v] < 0 || bpm(bpGraph, matchR[v], 
                                      seen, matchR)) 
             { 
-                matchR[v] = u; 
+                matchR[v] = u;  
                 return true; 
             } 
         } 
@@ -61,8 +61,7 @@ int maxBPM(bool bpGraph[M][N])
   
     // Count of jobs assigned to applicants 
     int result = 0;  
-    for (int u = 0; u < M; u++) 
-    { 
+    for (int u = 0; u < M; u++) { 
         // Mark all jobs as not seen  
         // for next applicant. 
         bool seen[N]; 

@@ -94,6 +94,38 @@ in final only one person go to one job. We need to find the maximum matching whi
 [Link 2](https://www.geeksforgeeks.org/maximum-bipartite-matching/)
 [Link 3](https://www.youtube.com/watch?v=8YUIdXOKNpM)
 
+
+----------------
+
+[Number of divisors and sum of divisors]()
+How to find sum of divisors and number of divisors by using prime factorization
+[Link](https://www.youtube.com/watch?v=H1cYZfF3uOo)
+
+[Z algorithm](https://github.com/novaknole/Algorithms/blob/master/Others/Z-algorithm.cpp)
+Z algorithm is something that we can use for strings. Basically this algorithm has to be used when we have some string(called S1) and also some other string(called S2) and we're interested in where S2 happens to be in S1 (So I mean indexes).
+This is used because time complexity is O(m+n) where m is the length of substring and n is the length of the original string. If we don't use this algorithm, time complexity is O(n^2) which is huge.
+[Youtube Link](https://www.youtube.com/watch?v=CpZh4eF8QBw)
+
+
 ## Interesting Problems
 
 [Uberwatch Problem I Solution(t) = max(oponents(t)+solution(t-m), solution(t-1))](https://github.com/novaknole/Algorithms/blob/master/20172018-acmicpc-german-collegiate-programming-contest-gcpc-2017-en.pdf)
+[Solution Link](https://github.com/novaknole/Algorithms/blob/master/Problems/Überwatch.cpp)
+
+[Plug It In Problem](https://github.com/novaknole/Algorithms/blob/master/20172018-acmicpc-german-collegiate-programming-contest-gcpc-2017-en.pdf)
+[Solution Link](https://github.com/novaknole/Algorithms/blob/master/Problems/plugitin.cpp)
+
+[PC is for kicking](https://codeforces.com/gym/230615/problem/L)
+[Solution Link](https://github.com/novaknole/Algorithms/blob/master/Problems/Pc_for_kicking.cpp)
+
+[Lucky sum of digits](https://codeforces.com/gym/230615/problem/O)
+[Solution Link](https://github.com/novaknole/Algorithms/blob/master/Problems/Lucky_sum_digits.cpp)
+
+[Number preference](https://codeforces.com/gym/230615/problem/F)
+[Solution Link](https://github.com/novaknole/Algorithms/blob/master/Problems/Number_Preference.cpp)
+
+[Ugly Number](https://codeforces.com/gym/230615/problem/B)
+[Solution Link](https://github.com/novaknole/Algorithms/blob/master/Problems/Ugly_Number.cpp)
+
+[Jaeger Training Fenwick](http://codeforces.com/gym/229458/problem/J)
+[Solution Link](https://github.com/novaknole/Algorithms/blob/master/Problems/Jaeger_fenwick.cpp)
