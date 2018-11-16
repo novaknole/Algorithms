@@ -1,5 +1,11 @@
 # Different Kinds of algorithms including their explanations and time complexities.
 
+
+# Data Structure Complexities
+
+[Time complexities](https://gist.github.com/psayre23/c30a821239f4818b0709)
+
+
 # Sorts
 
 [Insertion Sort O(n*n)](https://github.com/novaknole/Algorithms/blob/master/Sorts/insertion_sort.cpp)
@@ -105,6 +111,9 @@ How to find sum of divisors and number of divisors by using prime factorization
 Z algorithm is something that we can use for strings. Basically this algorithm has to be used when we have some string(called S1) and also some other string(called S2) and we're interested in where S2 happens to be in S1 (So I mean indexes).
 This is used because time complexity is O(m+n) where m is the length of substring and n is the length of the original string. If we don't use this algorithm, time complexity is O(n^2) which is huge.
 [Youtube Link](https://www.youtube.com/watch?v=CpZh4eF8QBw)
+
+
+
 
 
 ## Interesting Problems
