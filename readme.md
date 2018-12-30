@@ -14,7 +14,7 @@
 
 [Contest #6 - Written 3, needed 7](http://codeforces.com/gym/231899)
 
-[Contest #7 - Written 2, needed 7 or 8](http://codeforces.com/gym/232655)
+[Contest #7 - Written 3, needed 7 or 8](http://codeforces.com/gym/232655)
 
 [Contest #8 - Written 0, needed 6(90%) or 7(100%) ](http://codeforces.com/gym/233152)
 
