@@ -12,7 +12,7 @@
 
 [Contest #5 - Written 3, needed 8](https://codeforces.com/gym/231096)
 
-[Contest #6 - Written 0, needed 7](http://codeforces.com/gym/231899)
+[Contest #6 - Written 2, needed 7](http://codeforces.com/gym/231899)
 
 [Contest #7 - Written 0, needed 7 or 8](http://codeforces.com/gym/232655)
 
