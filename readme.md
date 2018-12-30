@@ -1,5 +1,52 @@
 # Different Kinds of algorithms including their explanations and time complexities.
 
+# Contests
+
+[Contest #1 - Written 5](https://codeforces.com/gym/229056)
+
+[Contest #2 - Written 3](http://codeforces.com/gym/229458)
+
+[Contest #3 - written 6](http://codeforces.com/gym/230118)
+
+[Contest #4 - written 7](https://codeforces.com/gym/230615)
+
+[Contest #5 - Written 3, needed 8](https://codeforces.com/gym/231096)
+
+[Contest #6 - Written 0, needed 7](http://codeforces.com/gym/231899)
+
+[Contest #7 - Written 0, needed 7 or 8](http://codeforces.com/gym/232655)
+
+[Contest #8 - Written 0, needed 6(90%) or 7(100%) ](http://codeforces.com/gym/233152)
+
+[Contest #9 - Written 0, needed 5(90%) or 6(100%)](http://codeforces.com/gym/233648)
+
+[Contest #10 - Written 0, needed 6(90%) or 7(100%)](http://codeforces.com/gym/234857)
+
+
+# Theories for the above contests
+
+For contest #1 and #2
+
+https://cp-algorithms.com/data_structures/fenwick.html
+https://cp-algorithms.com/data_stru…/disjoint_set_union.html
+https://cp-algorithms.com/graph/dijkstra_sparse.html
+
+For contest #3
+
+https://cp-algorithms.com/graph/breadth-first-search.html
+https://cp-algorithms.com/graph/depth-first-search.html
+https://cp-algorithms.com/geometry/picks-theorem.html
+https://cp-algorithms.com/geome…/area-of-simple-polygon.html
+https://cp-algorithms.com/…/finding-negative-cycle-in-graph…
+https://cp-algorithms.com/combinatorics/burnside.html
+
+For contest #4
+
+https://cp-algorithms.com/algebra/divisors.html
+https://cp-algorithms.com/graph/depth-first-search.html
+https://cp-algorithms.com/string/z-function.html
+https://cp-algorithms.com/string/string-hashing.html
+
 
 # Data Structure Complexities
 
