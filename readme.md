@@ -28,23 +28,33 @@
 For contest #1 and #2
 
 https://cp-algorithms.com/data_structures/fenwick.html
-https://cp-algorithms.com/data_stru…/disjoint_set_union.html
+
+https://cp-algorithms.com/data_structures/disjoint_set_union.html
+
 https://cp-algorithms.com/graph/dijkstra_sparse.html
 
 For contest #3
 
 https://cp-algorithms.com/graph/breadth-first-search.html
+
 https://cp-algorithms.com/graph/depth-first-search.html
+
 https://cp-algorithms.com/geometry/picks-theorem.html
-https://cp-algorithms.com/geome…/area-of-simple-polygon.html
-https://cp-algorithms.com/…/finding-negative-cycle-in-graph…
+
+https://cp-algorithms.com/geometry/area-of-simple-polygon.html
+
+https://cp-algorithms.com/graph/finding-negative-cycle-in-graph.html
+
 https://cp-algorithms.com/combinatorics/burnside.html
 
 For contest #4
 
 https://cp-algorithms.com/algebra/divisors.html
+
 https://cp-algorithms.com/graph/depth-first-search.html
+
 https://cp-algorithms.com/string/z-function.html
+
 https://cp-algorithms.com/string/string-hashing.html
 
 
