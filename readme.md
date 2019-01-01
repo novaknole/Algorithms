@@ -10,7 +10,7 @@
 
 [Contest #4 - written 7](https://codeforces.com/gym/230615)
 
-[Contest #5 - Written 3, needed 8](https://codeforces.com/gym/231096)
+[Contest #5 - Written 4, needed 8](https://codeforces.com/gym/231096)
 
 [Contest #6 - Written 3, needed 7](http://codeforces.com/gym/231899)
 
