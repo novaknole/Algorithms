@@ -209,6 +209,7 @@ b) Memory Requirements.
   - With Linkedlist, we don't have wasted/unused memory, but we need extra memory to store pointers. Linkedlist comes handy about consuming less memory space if the data part in linkedlist is large.
   
   Let's say we have created the array with length 7.(each element is 16 bytes long). and we only use 4 elements. other 3 elements are not put yet. So we still consume 7*16= 112.  With linkedlist, as we said we only use 4 elements, we would have 4*(16+4) = 80. Much lesser space right? So it all depends.
+  
 c) cost of inserting the element.
   - At the beginning:
     - Array - O(n)
@@ -219,4 +220,5 @@ c) cost of inserting the element.
   - In the middle
     - Array - O(n)
     - LinkedList - O(n)
+    
 d) removing the element - same as inserting.
