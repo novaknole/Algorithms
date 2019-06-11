@@ -195,3 +195,27 @@ This is used because time complexity is O(m+n) where m is the length of substrin
 
 [Jaeger Training Fenwick](http://codeforces.com/gym/229458/problem/J)
 [Solution Link](https://github.com/novaknole/Algorithms/blob/master/Problems/Jaeger_fenwick.cpp)
+
+
+
+### LinkedList Vs Array
+
+a) cost of accessing the element:
+  - Array - O(1)
+  - LinkedList - O(n)
+b) Memory Requirements.
+  - With Array, we need to know the size before creating it. Sometimes when creating an array, we might have some elements empty there. If we created the array of length 7 and use only 3 elements, it means space of 4 elements are wasted/unused.
+  - With Linkedlist, we don't have wasted/unused memory, but we need extra memory to store pointers. Linkedlist comes handy about consuming less memory space if the data part in linkedlist is large.
+  
+  Let's say we have created the array with length 7.(each element is 16 bytes long). and we only use 4 elements. other 3 elements are not put yet. So we still consume 7*16= 112.  With linkedlist, as we said we only use 4 elements, we would have 4*(16+4) = 80. Much lesser space right? So it all depends.
+c) cost of inserting the element.
+  - At the beginning:
+    - Array - O(n)
+    - LinkedList - O(1)
+  - At End
+    - Array - O(1) or O(n) (if array is full, it creates new array and copy contents)
+    - LinkedList - O(n)
+  - In the middle
+    - Array - O(n)
+    - LinkedList - O(n)
+d) removing the element - same as inserting.
