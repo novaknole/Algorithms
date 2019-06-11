@@ -203,6 +203,7 @@ This is used because time complexity is O(m+n) where m is the length of substrin
 a) cost of accessing the element:
   - Array - O(1)
   - LinkedList - O(n)
+  
 b) Memory Requirements.
   - With Array, we need to know the size before creating it. Sometimes when creating an array, we might have some elements empty there. If we created the array of length 7 and use only 3 elements, it means space of 4 elements are wasted/unused.
   - With Linkedlist, we don't have wasted/unused memory, but we need extra memory to store pointers. Linkedlist comes handy about consuming less memory space if the data part in linkedlist is large.
