@@ -65,11 +65,11 @@ https://cp-algorithms.com/string/string-hashing.html
 
 # Sorts
 
-[Insertion Sort O(n*n)](https://github.com/novaknole/Algorithms/blob/master/Sorts/insertion_sort.cpp)
+[Insertion Sort O(n*n) O(1)](https://github.com/novaknole/Algorithms/blob/master/Sorts/insertion_sort.cpp)
 
-[Bubble Sort  O(n*n)](https://github.com/novaknole/Algorithms/blob/master/Sorts/Bubble_Sort.cpp)
+[Bubble Sort  O(n*n) O(1)](https://github.com/novaknole/Algorithms/blob/master/Sorts/Bubble_Sort.cpp)
 
-[Merge Sort O(nLogn).](https://github.com/novaknole/Algorithms/blob/master/Sorts/Merge_Sort.cpp)
+[Merge Sort O(nLogn).  O(n)](https://github.com/novaknole/Algorithms/blob/master/Sorts/Merge_Sort.cpp)
 
 ## Trees
 [AVL Tree Code O(logn)=(Search,Insert,Delete)](https://github.com/novaknole/Algorithms/blob/master/Trees/avl_tree.cpp)
