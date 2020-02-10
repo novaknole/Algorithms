@@ -72,7 +72,7 @@ https://cp-algorithms.com/string/string-hashing.html
 [Merge Sort O(nLogn).  O(n)](https://github.com/novaknole/Algorithms/blob/master/Sorts/Merge_Sort.cpp)
 
 ## Trees
-[AVL Tree Code O(logn)=(Search,Insert,Delete)](https://github.com/novaknole/Algorithms/blob/master/Trees/avl_tree.cpp)
+[AVL Tree Code O(logn)=(Search,Insert,Delete) - O(n)](https://github.com/novaknole/Algorithms/blob/master/Trees/avl_tree.cpp)
 
 [AVL Tree Image](https://github.com/novaknole/Algorithms/blob/master/Trees/Images/avl_tree.jpg)
 
